@@ -5,7 +5,7 @@ import 'package:studyjam_app/pages/detail.dart';
 import '../models/category.dart';
 
 class HomePage extends StatefulWidget {
-  HomePage({super.key});
+  const HomePage({super.key});
 
   @override
   State<HomePage> createState() => _HomePageState();
