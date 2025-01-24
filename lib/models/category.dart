@@ -1,21 +1,23 @@
+import 'package:flutter/material.dart';
+
 class CategoryModel {
-  String vector;
+  IconData icon;
   bool isSelected;
 
   // Constructor
-  CategoryModel({required this.vector, required this.isSelected});
+  CategoryModel({required this.icon, required this.isSelected});
 
   static List<CategoryModel> getCategories() {
     List<CategoryModel> categories = [];
 
     categories.add(CategoryModel(
-        vector: 'assets/vectors/Notification.svg', isSelected: false));
+        icon: Icons.hiking, isSelected: false));
     categories.add(CategoryModel(
-        vector: 'assets/vectors/Notification.svg', isSelected: false));
+        icon: Icons.water, isSelected: false));
     categories.add(CategoryModel(
-        vector: 'assets/vectors/Notification.svg', isSelected: true));
+        icon: Icons.stream, isSelected: true));
     categories.add(CategoryModel(
-        vector: 'assets/vectors/Notification.svg', isSelected: false));
+        icon: Icons.park, isSelected: false));
 
     return categories;
   }
