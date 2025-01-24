@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 import 'package:studyjam_app/models/destination.dart';
 import 'package:studyjam_app/pages/detail.dart';
 
